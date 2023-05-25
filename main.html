@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/main.css" />
+    <title>my</title>
+  </head>
+  <body>
+    <!-- 상단-->
+    <header>
+      <!-- 타이틀 -->
+      <h1>
+        MY <br />
+        web-design
+        <span
+          >portfolio<br />
+          collection</span
+        >
+      </h1>
+      <!-- 오브젝트 -->
+      <div class="object">
+        <div class="border">
+          <img src="images/Background copy.png" alt="로고" />
+        </div>
+      </div>
+    </header>
+    <!-- 오브젝트 -->
+    <section>
+      <!-- conts01 -->
+      <div class="contents">
+        <a href="#"><img src="images/img1.jpg" alt="이미지1"></a>
+        <a href="#"><img src="images/img2.jpg" alt="이미지2"></a>
+        <a href="#"><img src="images/img3.jpg" alt="이미지3"></a>
+        <a href="#"><img src="images/img4.jpg" alt="이미지4"></a>
+        <a href="#"><img src="images/img5.jpg" alt="이미지5"></a>
+        <a href="#"><img src="images/img6.jpg" alt="이미지6"></a>
+      </div>
+      <!-- conts02 -->
+      <div class="contents">
+        <a href="#"><img src="images/img7.jpg" alt="이미지7"></a>
+        <a href="#"><img src="images/img8.jpg" alt="이미지8"></a>
+        <a href="#"><img src="images/img9.jpg" alt="이미지0"></a>
+        <a href="#"><img src="images/img10.jpg" alt="이미지10"></a>
+        
+      </div>
+      <!-- conts03 -->    
+        <div class="contents">
+        <a href="#"><img src="images/img11.jpg" alt="이미지11"></a>
+        <a href="#"><img src="images/img12.jpg" alt="이미지12"></a>
+        <a href="#"><img src="images/img13.jpg" alt="이미지13"></a>
+        <a href="#"><img src="images/img14.jpg" alt="이미지13"></a>
+        <a href="#"><img src="images/img15.jpg" alt="이미지13"></a>
+        
+      </div>
+    </section>
+    <!-- 네브 -->
+    <nav>
+        <a href="#" class="active">
+            <span></span>
+            <span></span>
+            <span></span>
+        </a>
+    </nav>
+    <!-- javascript -->
+    <script>
+        const navlink = document.querySelector("nav a");
+        navlink.addEventListener("click",function(){
+            navlink.classList.toggle("active")
+        })
+    </script>
+    <!-- 하단 -->
+    <footer>
+        <ul>
+            <li><a href="#">
+                <i class="fa-brands fa-youtube" style="color: #ffffff;"></i>
+            </a></li>
+            <li><a href="#">
+                <i class="fa-brands fa-facebook" style="color: #ffffff;"></i>
+            </a></li>
+            <li><a href="#">
+                <i class="fa-brands fa-instagram" style="color: #ffffff;"></i>
+            </a></li>
+        </ul>
+        <p>Copyright &copy; 2023 Kimyounwoo </p>
+    </footer>
+  </body>
+</html>
